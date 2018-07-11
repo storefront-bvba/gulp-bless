@@ -1,6 +1,6 @@
 {
   "name": "gulp-bless-improved-cachebusting",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "homepage": "http://github.com/storefrontbvba/gulp-bless",
   "description": "CSS post-processor which splits CSS files suitably for Internet Explorer < 10. Bless + Gulp = gulp-bless. In this version, cachebusting is using a sha1 hash so no unnecessary busting is happening.",
   "main": "./index.js",
