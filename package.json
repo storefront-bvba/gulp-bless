@@ -1,8 +1,8 @@
 {
-  "name": "gulp-bless",
-  "version": "4.0.1",
-  "homepage": "http://github.com/BlessCSS/gulp-bless",
-  "description": "CSS post-processor which splits CSS files suitably for Internet Explorer < 10. Bless + Gulp = gulp-bless.",
+  "name": "gulp-bless-improved-cachebusting",
+  "version": "4.0.2",
+  "homepage": "http://github.com/storefrontbvba/gulp-bless",
+  "description": "CSS post-processor which splits CSS files suitably for Internet Explorer < 10. Bless + Gulp = gulp-bless. In this version, cachebusting is using a sha1 hash so no unnecessary busting is happening.",
   "main": "./index.js",
   "dependencies": {
     "bless": "^4.0.0",
@@ -38,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/BlessCSS/gulp-bless.git"
+    "url": "git://github.com/storefrontbvba/gulp-bless.git"
   },
   "keywords": [
     "gulpplugin",
@@ -52,7 +52,7 @@
   "author": "Adam Lynch <adam@teamwork.com>",
   "license": "MIT",
   "bugs": {
-    "url": "http://github.com/BlessCSS/gulp-bless/issues"
+    "url": "http://github.com/storefrontbvba/gulp-bless/issues"
   },
   "engines": {
     "node": ">=0.9"
