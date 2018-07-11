@@ -5,7 +5,7 @@ gulp-bless
 
 ---
 
-Gulp plugin which splits CSS files suitably for Internet Explorer &lt; 10.
+Gulp plugin which splits CSS files suitably for Internet Explorer &lt; 10. In this version, cachebusting is using a sha1 hash so no unnecessary busting is happening.
 
 This is the a [Gulp](http://github.com/gulpjs/gulp) wrapper around [bless.js](https://github.com/paulyoung/bless.js) (see [blesscss.com](http://blesscss.com/)).
 
